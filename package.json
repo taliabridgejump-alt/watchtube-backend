@@ -1,11 +1,11 @@
 {
-  "name": "watchtube",
+  "name": "watchtube-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-  "start": "json-server --watch database.json --port 10000"
-}
+    "start": "json-server --host 0.0.0.0 --port $PORT database.json"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
