@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "userID": "example-user-1",
+      "username": "Anon"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": "example-post-1",
+      "userID": "example-user-1",
+      "username": "Anon",
+      "text": "Welcome to the platform!",
+      "tags": ["t/welcome"],
+      "videoURL": null,
+      "likes": [],
+      "comments": [],
+      "timestamp": 1730000000000
+    }
+  ]
+}
